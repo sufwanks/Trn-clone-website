@@ -1,0 +1,69 @@
+.carousel-item{
+    z-index: 1;
+width: 100%;
+    background-repeat: no-repeat;
+}
+
+.product-img{
+    justify-content: center;
+    margin-inline: auto;
+    width: 35%;
+}
+
+.card-des{
+    margin-top: 5%;
+    margin-inline: 0%;
+    padding: 5%;
+    opacity: 80%;
+    
+}
+
+.product-title{
+    color: black;
+    text-align: center;
+}
+
+
+.carousel-control-next-icon{
+    background-color: rgb(35, 35, 35);
+    border-radius: 100px;
+
+}
+.carousel-control-prev-icon{
+    background-color: rgb(35, 35, 35);
+    border-radius: 100px;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #322222;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+
+/* tablet view */
+
+@media (max-width:768px) {
+    .carousel-item {
+        background-repeat: round;
+    }
+    
+
+
+   
+}
+
+

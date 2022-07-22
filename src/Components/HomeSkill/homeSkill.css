@@ -1,0 +1,114 @@
+.skill-bg-img {
+    background: url("https://tranetech.com/wp-content/themes/tranetech/images/ourskill.webp");
+    visibility: visible;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.skill-title {
+    margin-bottom: 15px;
+    color: #faae34;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    line-height: 28px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+
+}
+
+.skill-description {
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    font-size: 27px;
+    line-height: 32px;
+    padding: 5%;
+    margin: 22px 0 22px;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+.skill-body {
+    padding: 15%;
+    margin-top: 15%;
+}
+
+.percentage-body {
+    padding: 10%;
+}
+
+.per-cont {
+    padding: 5%;
+}
+
+.react-sweet-progress-symbol-absolute .react-sweet-progress-symbol {
+    padding: 0;
+    width: 100%;
+    color: #ffffff;
+}
+
+.skill-tech {
+    color: #ffffff;
+    position: absolute;
+    font-size: 11px;
+    line-height: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase !important;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    background: rgba(0, 0, 0, .15);
+    height: 3px;
+    width: 88%;
+    margin: 0px 0 20px;
+}
+
+.skill-tech-description {
+    font-size: 12px;
+    color: #FFF;
+    margin: 0 0 25px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+    margin: 20px 0 10px;
+    background: rgba(0, 0, 0, .15);
+    height: 3px;
+    width: 88%;
+    text-align: left;
+}
+
+@media( max-width:768px) {
+    .skill-body {
+        padding: 1%;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .skill-title {
+        color: #faae34;
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: -1px;
+    }
+
+    .skill-description {
+        color: #ffffff;
+        text-align: center;
+        font-size: 22px;
+        line-height: 32px;
+        margin: 22px 127px 22px;
+    }
+}

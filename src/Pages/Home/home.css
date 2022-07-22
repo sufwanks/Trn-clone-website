@@ -1,0 +1,26 @@
+@keyframes scrolled {
+  0% {
+    top: -70px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+.cover-background {
+  background: url('https://tranetech.com/wp-content/themes/tranetech/images/homepage-option15-bg.webp');
+
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  @media (min-width: 768px) {
+    position: absolute;
+  }}
+
+  

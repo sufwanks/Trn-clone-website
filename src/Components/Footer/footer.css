@@ -1,0 +1,83 @@
+.tranetech-footer {
+    background-color: #202833;
+    color: azure;
+}
+
+.footer-contact {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.contact-vision {
+    text-align: center;
+    margin-top: 3%;
+    padding-inline: 2%;
+}
+.social-media{
+    text-align: center;
+}
+
+.footer-section{
+    padding-inline: 2%;
+}
+
+.footer-sub-title {
+    color: rgb(17, 16, 16);
+}
+
+.footer-title {
+    color: #fff;
+}
+
+.footer-text-muted {
+    --bs-text-opacity: 1;
+    color: #fff;
+}
+
+.footer-content {
+    color: #fff;
+    text-align: justify;
+    margin-top: 8%;
+}
+
+.bottom-footer {
+    background-color: #f7ab34;
+    color: #0d1216 !important;
+    margin: 0 10px;
+}
+
+.tranetech-sub-footer {
+    background-color: #efefef;
+}
+
+.foot-img {
+    width: 70%;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.footer-certifications-img {
+    text-align: center;
+    width: 70%;
+}
+
+@media(max-width:768px){
+    .foot-img {
+        width: 100%;
+        justify-content: center;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .contact-vision {
+        text-align: center;
+        margin-top: 3%;
+        padding-inline: 2%;
+        font-size: 12px;
+    }
+    .footer-content {
+        color: #fff;
+        text-align: justify;
+        margin-top: 2%;
+        font-size: 12px;
+    }
+}

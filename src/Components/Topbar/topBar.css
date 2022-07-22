@@ -1,0 +1,24 @@
+.top-bar {
+  background-color: #f7ab34;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+.text-light {
+  color: #0d1216!important;
+  margin: 0 10px;
+
+}
+.mr-3{
+  margin-inline: 5px;
+}
+.fab{
+  font-size: 20px;
+  font-weight: 900;
+}
+.fas{
+  font-size: 20px;
+  font-weight: 900;
+  margin-inline: 5px;
+}

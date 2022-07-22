@@ -1,0 +1,26 @@
+.home-content{
+    background: url("https://tranetech.com/wp-content/themes/tranetech/images/about-banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    opacity: 0.5;
+    background-color: #1c1c1c;
+
+}
+
+.contact-head{
+    background-color: #1c1c1c;
+}
+
+.contact-us-title{
+    color: #ffff;
+    font-size: 80px;
+    padding: 5%;
+    text-align: center;
+}
+
+@media(max-width:768px){
+    .contact-us-title {
+        font-size: 53px;
+        padding: 0%;
+    }
+}
